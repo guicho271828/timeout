@@ -63,7 +63,7 @@ GetOptions(
 	'allow-hangups!'=>\$kill_stale,
 	'memlimit|m=i'=>\$memlimit,
 	'memlimit-rss|s=i'=>\$memlimit_rss,
-	'frequency|x=i'=>\$frequency,
+	'frequency|x=f'=>\$frequency,
 	'pattern|p=s'=>\$strpat,
 	'output|o=s'=>\$output,
 	'reference|r=s'=>\$reference,
